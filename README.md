@@ -26,7 +26,8 @@ quickstart tutorial of building an onchain agent using openclaw
 1. Message @BotFather on telegram
 2. Type `/newbot`
 3. Paste the bot token into the Openclaw terminal
-4. Message your bot to test if it works (Note: You might need to add the pairing code to openclaw)
+4. Message your bot to test if it works (Note: You might need to add the pairing code to openclaw using `openclaw pairing approve telegram CODE_HERE`)
+
 
 ### Setting up personality
 
