@@ -1,6 +1,10 @@
 # openclaw-onchain-quickstart
 Quickstart tutorial of building an agent using Openclaw that can do onchain actions.
 
+# Resources
+- [List of tools and resources](https://github.com/sodofi/awesome-onchain-agents)
+- [EthSkills](https://ethskills.com/)
+
 # Overview
 
 How it all fits together
