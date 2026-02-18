@@ -1,5 +1,49 @@
 # openclaw-onchain-quickstart
-quickstart tutorial of building an onchain agent using openclaw
+Quickstart tutorial of building an agent using Openclaw that can do onchain actions.
+
+# Overview
+
+How it all fits together
+
+```
+         ┌──────────────┐         ┌──────────────┐
+         │  Ethskills   │         │ MCP Servers  │
+         │  How to build│         │ Live on-chain│
+         │  on Ethereum │         │ data & tools │
+         └──────┬───────┘         └──────┬───────┘
+                └────────────┬────────────┘
+                             │ injected into
+                             ▼
+                   ┌──────────────────┐
+                   │   BRAIN (LLM)    │
+                   │  Claude · GPT-4  │
+                   │  Reasons·Decides │
+                   └────────┬─────────┘
+                            │ drives
+                            ▼
+                   ┌──────────────────┐
+                   │      BODY        │
+                   │    OpenClaw      │
+                   │    ElizaOS       │
+                   │     Virtuals     │
+                   └───┬─────┬────┬───┘
+                       │     │    │
+           ┌───────────┘     │    └────────────┐
+           ▼                 ▼                 ▼
+  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+  │  COMMUNICATE│   │   TRANSACT  │   │   IDENTITY  │
+  │             │   │             │   │             │
+  │  Telegram   │   │  AgentKit   │   │     ENS     │
+  │  Twitter    │   │  Agentic    │   │  ERC-8004   │
+  │  Farcaster  │   │  Wallets    │   │  ERC-7710   │
+  │  Discord    │   │  x402       │   │    SIWA     │
+  └─────────────┘   └──────┬──────┘   └─────────────┘
+                            │
+                  ══════════╧══════════
+                       ETHEREUM
+                   Base · Mainnet · L2s
+                  ═════════════════════
+```
 
 # Setup
 
