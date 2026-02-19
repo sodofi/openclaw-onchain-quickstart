@@ -81,3 +81,24 @@ How it all fits together
 
 1. create a soul file (I got inspo from [here](https://github.com/aaronjmars/soul.md/blob/main/SOUL.template.md))
 
+## Creating A Wallet
+
+There are many different ways you can connect your agent to a wallet. Here are a list of following options that I tested and the prompts I used.
+
+### Coinbase Agentic Wallet
+
+A custodial wallet controlled by Coinbase Agentic Wallet, you don't manage the private keys directly—they are handled by the service and the authenticated session here.
+
+Great if you want strong gurantees your agent wont accidentally expose its seed phrase.
+
+```
+I want you to integrate coinbase agentic wallet using these docs https://docs.cdp.coinbase.com/agentic-wallet/welcome.
+
+Figure out how to install and configure the ‎`agentic-wallet-skills` and the ‎`awal` CLI on this machine, and then give me a status update.
+
+Ask me for any required Coinbase auth (email OTP, etc.).
+
+Ask me for confirmation before doing onchain things
+```
+
+[Docs](https://docs.cdp.coinbase.com/agentic-wallet/welcome.)
